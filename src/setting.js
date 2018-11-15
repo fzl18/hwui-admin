@@ -38,8 +38,8 @@ export default {
     list: [
       {
         title: '恒为科技',
-        name: 'tomorrow-night-blue',
-        preview: 'image/theme/tomorrow-night-blue/preview@2x.png'
+        name: 'hwui',
+        preview: 'image/theme/hwui/preview@2x.png'
       }
     ]
   },

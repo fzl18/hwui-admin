@@ -33,9 +33,9 @@
         </el-card>
       </div>
       <!-- 快速登录按钮 -->
-      <el-button size="default" type="info" class="button-help" @click="dialogVisible = true">
+      <!-- <el-button size="default" type="info" class="button-help" @click="dialogVisible = true">
         快速选择用户（测试功能）
-      </el-button>
+      </el-button> -->
     </div>
     <el-dialog
       title="快速选择用户"

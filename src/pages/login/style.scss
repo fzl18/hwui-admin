@@ -1,6 +1,6 @@
 @import '~@/assets/style/public.scss';
 .login-page {
-  background-color: #EDF4FA;
+  background-color: #333;
   height: 100%;
   position: relative;
   // 层
@@ -18,7 +18,7 @@
   // 背景
   .bg {
     canvas {
-      display: block;
+      display: none;
       margin: 0px;
       padding: 0px;
     }
@@ -27,7 +27,7 @@
   .logo-group {
     margin-top: -75px - 70px;
     position: relative;
-    top: 75px;
+    top: 35px;
     img {
       height: 140px;
     }
@@ -37,14 +37,24 @@
     width: 300px;
     // 重新设置卡片阴影
     .el-card {
-      box-shadow: 0 0 8px 0 rgba(232,237,250,.6), 0 2px 4px 0 rgba(232,237,250,.5);
+      // box-shadow: 0 0 8px 0 rgba(232,237,250,.6), 0 2px 4px 0 rgba(232,237,250,.5);
+      box-shadow:none;
+      border:none;
       .el-card__body {
         padding-top: 70px;
+        background: #333;
+        input{border:none;}
+        .el-input-group__prepend{
+          background: #FF9900;
+          color:#fff;
+        }
       }
     }
     // 登录按钮
     .button-login {
       width: 100%;
+      background: #FF9900;
+      border:none;
     }
     // 输入框左边的图表区域缩窄
     .el-input-group__prepend {
